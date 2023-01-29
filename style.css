@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 90vh;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+.headerText{
+    color: white;
+}
+  
+  .text-center{
+padding-left: 40px;
+padding-right: 40px;
+text-align: center;
+color: white;
+  }
+
+  .download-btn {
+    display: block; /* Make the button a block element */
+    clear: both; /* Clear the float */
+    padding: 12px 24px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      background: linear-gradient(to right, #e83271, #ff0000);
+      color: black;
+      border: none;
+      border-radius: 8px;
+      margin: 8px 24px;
+      box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      transition: all 500ms ease;
+    }
+    a:link {
+        color: none;
+        background-color: transparent;
+        text-decoration: none;
+      }
+    
+    .download-btn:hover {
+      transform: translateY(-4px);
+    }
